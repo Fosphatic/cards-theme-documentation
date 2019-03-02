@@ -1,5 +1,9 @@
 ---
 home: true
+sidebar: auto
+heroImage: /assets/img/logo.svag
+actionText: Get Started →
+actionLink: /guide/
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.
