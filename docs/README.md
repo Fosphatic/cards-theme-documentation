@@ -1,7 +1,7 @@
 ---
 home: true
 sidebar: auto
-heroImage: /assets/img/logo.svag
+heroImage: /assets/img/logo.svg
 actionText: Get Started →
 actionLink: /guide/
 features:
