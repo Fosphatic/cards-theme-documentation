@@ -1,25 +1,29 @@
 module.exports = {
   base: "/cards-theme-documentation/",
-  title: 'October CMS Theme ',
+  title: 'October CMS Theme',
+  serviceWorker: true,
   description: 'Documentation',
-  dest: 'gh-pages',
+
   themeConfig: {
-    sidebar: {
-    '/guide/': [
-      '',
-      'getting-started'
+    sidebarDepth: 2,
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Guide', link: '/guide/' },
+      { text: 'External', link: 'https://google.com' },
     ],
-    '/': [
-      ''
-    ]
+    sidebar: [
+    '/',
+    {
+      title: 'Getting Started',
+      collapsable: true,
+      children: [
+      '/guide/',
+      '/guide/quickstarted'
+      ]
+    },
+    ],
   },
-   nav: [
-     { text: 'Home', link: '/' },
-     { text: 'Guide', link: '/guide/' },
-     { text: 'External', link: 'https://google.com' },
-   ],
    logo: '/assets/img/logo.svg',
    displayAllHeaders: true,
    sidebar: 'auto'
  }
-}
