@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7e7aefd0503b2e61c937b12611e6035d"
+    "revision": "48f22bbb6266f3e567421f75d6f1ee02"
   },
   {
     "url": "assets/css/0.styles.09c0d57e.css",
@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "revision": "88bdf9974790814db583e9304a50f330"
   },
   {
-    "url": "assets/js/app.0d8a1515.js",
-    "revision": "e1e496894591b0cf0f42fcb3ca1a31e3"
+    "url": "assets/js/app.c9741d2a.js",
+    "revision": "56306b81c36212627c9d0480241495c7"
   },
   {
     "url": "guide/index.html",
-    "revision": "d112d17a64f0b3467349040336c05bdf"
+    "revision": "56d109ebb10cedba50db750eead08a10"
   },
   {
     "url": "guide/quickstarted.html",
-    "revision": "a2b29e53e783558951d2329fc4e1a023"
+    "revision": "de83955b207c65944b85857b5c4a2d8b"
   },
   {
     "url": "index.html",
-    "revision": "5a3328381bc0bcad1dc12f365772125d"
+    "revision": "7fc45caccacd6d13882592a6990338fc"
   },
   {
     "url": "logo.svg",
@@ -77,7 +77,7 @@ self.__precacheManifest = [
   },
   {
     "url": "settings/index.html",
-    "revision": "be4b58888a8671687ad4b66ab009ade3"
+    "revision": "e6f5ce6f1a33b3f30bf23e9fb50084c6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
