@@ -9,6 +9,6 @@ module.exports = {
      { text: 'Guide', link: '/guide/' },
      { text: 'External', link: 'https://google.com' },
    ],
-   logo: '/assets/img/logo.svg',
+   logo: '/assets/img/logo.svg'
  }
 }
