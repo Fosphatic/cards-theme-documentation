@@ -3,7 +3,6 @@ module.exports = {
   title: 'October CMS Theme',
   serviceWorker: true,
   description: 'Documentation',
-  logo: '/assets/img/logo.svg',
   displayAllHeaders: true,
   sidebar: 'auto',
 
@@ -25,5 +24,6 @@ module.exports = {
       ]
     },
     ],
+    logo: '/assets/img/logo.svg',
   }
  }
