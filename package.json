@@ -4,7 +4,6 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "docs:build": "vuepress build docs"
   }
 }
